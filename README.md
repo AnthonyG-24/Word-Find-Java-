@@ -58,5 +58,3 @@ The word-find grid will have _r_ rows and _c_ columns. The format of the word-fi
 The format of the word list file will be an arbitrary number of words to search for, each word on a separate line. If no input files are given (i.e., no command line arguments are specified), or if a specified file does not exist, print an error message and cleanly exit the program. You need not handle improperly constructed input files in any particular way (i.e., it is okay if your program crashes with input files that do not match the above specification).
 
 Your program should handle input files that were created in both the Unix and Windows environments. (These environments have different line-ending characters.) I do not expect you'll need to do extra work to satisfy this requirement; rather, I expect you to avoid making your program unnecessarily dependent on files created in one environment versus another.
-
-I expect you to understand all these requirements. If you do not, ask me for clarification on Zulip (or in class).
